@@ -12,21 +12,21 @@ const NFTData = [
     bids: [
       {
         id: "BID-11",
-        name: "Jessica Tan",
+        name: "Boa Hancock",
         price: 4.25,
         image: assets.person02,
         date: "December 12, 2019 at 12:10 PM",
       },
       {
         id: "BID-12",
-        name: "Jennifer Sia",
+        name: "Niko Robin",
         price: 4.5,
         image: assets.person03,
         date: "December 27, 2019 at 1:50 PM",
       },
       {
         id: "BID-13",
-        name: "Rosie Wong",
+        name: "Nami",
         price: 4.75,
         image: assets.person04,
         date: "December 31, 2019 at 3:50 PM",
@@ -44,7 +44,7 @@ const NFTData = [
     bids: [
       {
         id: "BID-21",
-        name: "Jessica Tan",
+        name: "Boa Hancock",
         price: 7.05,
         image: assets.person04,
         date: "December 12, 2019 at 12:10 PM",
@@ -62,14 +62,14 @@ const NFTData = [
     bids: [
       {
         id: "BID-31",
-        name: "Jessica Tan",
+        name: "Boa Hancock",
         price: 95.25,
         image: assets.person02,
         date: "December 12, 2019 at 12:10 PM",
       },
       {
         id: "BID-32",
-        name: "Jennifer Sia",
+        name: "Niko Robin",
         price: 95.5,
         image: assets.person03,
         date: "December 27, 2019 at 1:50 PM",
@@ -87,21 +87,21 @@ const NFTData = [
     bids: [
       {
         id: "BID-41",
-        name: "Jessica Tan",
+        name: "Boa Hancock",
         price: 56.25,
         image: assets.person02,
         date: "December 12, 2019 at 12:10 PM",
       },
       {
         id: "BID-42",
-        name: "Jennifer Sia",
+        name: "Niko Robin",
         price: 54.25,
         image: assets.person03,
         date: "December 27, 2019 at 1:50 PM",
       },
       {
         id: "BID-43",
-        name: "Rosie Wong",
+        name: "Nami",
         price: 55.15,
         image: assets.person04,
         date: "December 31, 2019 at 3:50 PM",
@@ -126,7 +126,7 @@ const NFTData = [
     bids: [
       {
         id: "BID-51",
-        name: "Jessica Tan",
+        name: "Boa Hancock",
         price: 10.25,
         image: assets.person02,
         date: "December 12, 2019 at 12:10 PM",
@@ -144,21 +144,21 @@ const NFTData = [
     bids: [
       {
         id: "BID-61",
-        name: "Jessica Tan",
+        name: "Boa Hancock",
         price: 20.25,
         image: assets.person02,
         date: "December 12, 2019 at 12:10 PM",
       },
       {
         id: "BID-62",
-        name: "Jennifer Sia",
+        name: "Niko Robin",
         price: 20.5,
         image: assets.person03,
         date: "December 27, 2019 at 1:50 PM",
       },
       {
         id: "BID-63",
-        name: "Rosie Wong",
+        name: "Nami",
         price: 20.75,
         image: assets.person04,
         date: "December 31, 2019 at 3:50 PM",
