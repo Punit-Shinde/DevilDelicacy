@@ -34,7 +34,7 @@ const DetailsBid = ({ bid }) => {
           style={{
             fontFamily: FONTS.semiBold,
             fontSize: SIZES.small,
-            color: COLORS.primary,
+            color: COLORS.white,
           }}
         >
           Bid placed by {bid.name}
@@ -43,7 +43,7 @@ const DetailsBid = ({ bid }) => {
           style={{
             fontFamily: FONTS.regular,
             fontSize: SIZES.small - 2,
-            color: COLORS.secondary,
+            color: COLORS.white,
             marginTop: 3,
           }}
         >

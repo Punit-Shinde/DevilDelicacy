@@ -7,7 +7,7 @@ const HomeHeader = ({ onSearch }) => {
   return (
     <View
       style={{
-        backgroundColor: COLORS.primary,
+        backgroundColor: "linear-gradient(to right, #83a7c3, #b9dab5)",
         padding: SIZES.font,
       }}
     >
@@ -21,7 +21,7 @@ const HomeHeader = ({ onSearch }) => {
         <Image
           source={assets.logo}
           resizeMode="contain"
-          style={{ width: 90, height: 25 }}
+          style={{ width: 250, height: 90 }}
         />
 
         <View style={{ width: 45, height: 45 }}>

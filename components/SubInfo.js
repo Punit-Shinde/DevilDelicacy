@@ -8,7 +8,7 @@ export const NFTTitle = ({ title, subTitle, titleSize, subTitleSize }) => {
         style={{
           fontFamily: FONTS.semiBold,
           fontSize: titleSize,
-          color: COLORS.primary,
+          color: COLORS.white,
         }}
       >
         {title}
@@ -17,10 +17,10 @@ export const NFTTitle = ({ title, subTitle, titleSize, subTitleSize }) => {
         style={{
           fontFamily: FONTS.regular,
           fontSize: subTitleSize,
-          color: COLORS.primary,
+          color: COLORS.white,
         }}
       >
-        by {subTitle}
+        Type: {subTitle}
       </Text>
     </View>
   );
@@ -37,10 +37,10 @@ export const EthPrice = ({ price }) => {
         style={{
           fontFamily: FONTS.medium,
           fontSize: SIZES.font,
-          color: COLORS.primary,
+          color: COLORS.white,
         }}
       >
-        {price}
+        {price} million
       </Text>
     </View>
   );
@@ -74,7 +74,7 @@ export const EndDate = () => {
     <View style={{
       paddingHorizontal: SIZES.font,
       paddingVertical: SIZES.base,
-      backgroundColor: COLORS.white,
+      backgroundColor: COLORS.black,
       borderRadius: SIZES.font,
       justifyContent: "center",
       alignItems: "center",
@@ -86,19 +86,19 @@ export const EndDate = () => {
         style={{
           fontFamily: FONTS.regular,
           fontSize: SIZES.small,
-          color: COLORS.primary,
+          color: COLORS.white,
         }}
       >
-        Ending in
+        Sale ending in
       </Text>
       <Text
         style={{
           fontFamily: FONTS.semiBold,
           fontSize: SIZES.medium,
-          color: COLORS.primary,
+          color: COLORS.white,
         }}
       >
-        12h 30m
+        2h 30m
       </Text>
     </View>
   );

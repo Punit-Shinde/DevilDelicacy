@@ -16,6 +16,7 @@ const DetailsDesc = ({ data }) => {
           flexDirection: "row",
           justifyContent: "space-between",
           alignItems: "center",
+          backgroundColor:COLORS.black,
         }}
       >
         <NFTTitle
@@ -23,29 +24,31 @@ const DetailsDesc = ({ data }) => {
           subTitle={data.creator}
           titleSize={SIZES.extraLarge}
           subTitleSize={SIZES.font}
+          
         />
 
         <EthPrice price={data.price} />
       </View>
 
-      <View style={{ marginVertical: SIZES.extraLarge * 1.5 }}>
+      <View style={{ marginVertical: SIZES.extraLarge * 1.5}}>
         <Text
           style={{
             fontSize: SIZES.font,
             fontFamily: FONTS.semiBold,
-            color: COLORS.primary,
+            color: COLORS.white,
+            backgroundColor:COLORS.black,
           }}
         >
           Description
         </Text>
         <View
           style={{
-            marginTop: SIZES.base,
+            marginTop: SIZES.base
           }}
         >
           <Text
             style={{
-              color: COLORS.secondary,
+              color: COLORS.white,
               fontSize: SIZES.small,
               fontFamily: FONTS.regular,
               lineHeight: SIZES.large,
@@ -55,7 +58,7 @@ const DetailsDesc = ({ data }) => {
             {!readMore && "..."}
             <Text
               style={{
-                color: COLORS.primary,
+                color: COLORS.blue,
                 fontSize: SIZES.small,
                 fontFamily: FONTS.semiBold,
               }}

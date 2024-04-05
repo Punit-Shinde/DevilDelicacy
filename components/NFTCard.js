@@ -11,7 +11,10 @@ const NFTCard = ({data}) => {
   return (
     <View
       style={{
-        backgroundColor: COLORS.white,
+        backgroundColor: COLORS.black,
+        borderWidth: 3,
+        borderRadius: SIZES.font,
+        borderColor: COLORS.blue,
         borderRadius: SIZES.font,
         marginBottom: SIZES.extraLarge,
         margin: SIZES.base,
@@ -30,8 +33,8 @@ const NFTCard = ({data}) => {
           style={{
             width: "100%",
             height: "100%",
-            borderTopLeftRadius: SIZES.font,
-            borderTopRightRadius: SIZES.font,
+            borderTopLeftRadius: SIZES.base,
+            borderTopRightRadius: SIZES.base,
           }}
         />
         <CircleButton imgUrl={assets.heart} right={10} top={10} />
@@ -42,7 +45,7 @@ const NFTCard = ({data}) => {
       <View style={{ width: "100%", padding: SIZES.font }}>
         <NFTTitle
           title={data.name}
-          subTitle={data.creator}
+          subTitle={data.type}
           titleSize={SIZES.large}
           subTitleSize={SIZES.small}
         />

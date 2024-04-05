@@ -38,6 +38,8 @@ const Details = ({ route, navigation }) => {
         translucent={true}
       />
 
+      <View style={{ height:"100%", backgroundColor: COLORS.black}}>
+
       <View
         style={{
           width: "100%",
@@ -46,7 +48,7 @@ const Details = ({ route, navigation }) => {
           paddingVertical: SIZES.font,
           justifyContent: "center",
           alignItems: "center",
-          backgroundColor: "rgba(255,255,255,0.5)",
+          backgroundColor: "rgba(0,0,0,0.5)",
           zIndex: 1,
         }}
       >
@@ -83,6 +85,7 @@ const Details = ({ route, navigation }) => {
           </React.Fragment>
         )}
       />
+      </View>
     </SafeAreaView>
   );
 };

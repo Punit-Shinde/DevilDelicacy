@@ -2,9 +2,11 @@ export const COLORS = {
   // primary: "#001F2D",
   primary: "#000",
   secondary: "#4D626C",
-
+  gradient: "linear-gradient( rgba(2,0,36,1)  rgba(28,103,241,1)",
   white: "#FFF",
+  black: "#000",
   gray: "#74858C",
+  blue:"#1C67F1",
 };
 
 export const SIZES = {
