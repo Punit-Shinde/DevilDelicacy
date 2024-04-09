@@ -63,7 +63,7 @@ const HomeHeader = ({ onSearch }) => {
             marginTop: SIZES.base / 2,
           }}
         >
-          Let’s find masterpiece Art
+          Let’s find your perfect Devil Fruit
         </Text>
       </View>
 
@@ -85,7 +85,7 @@ const HomeHeader = ({ onSearch }) => {
             style={{ width: 20, height: 20, marginRight: SIZES.base }}
           />
           <TextInput
-            placeholder="Search NFTs"
+            placeholder="Search Devil Fruits"
             style={{ flex: 1 }}
             onChangeText={onSearch}
           />
