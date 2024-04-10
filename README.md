@@ -38,9 +38,11 @@ Welcome to DevilDelicacy, a mobile auction app built using React Native. DevilDe
 
 ## Screenshots
 
-<img src="Screenshots/loading.png" alt="Product Listing" style="width:30%;">
-<img src="Screenshots/home.png" alt="Product Listing" style="width:30%;">
-<img src="Screenshots/detail.png" alt="Product Listing" style="width:30%;">
+<div style="display: flex; justify-content: space-between;">
+    <img src="Screenshots/loading.png" alt="Product Listing" style="width:30%;">
+    <img src="Screenshots/home.png" alt="Product Listing" style="width:30%;">
+    <img src="Screenshots/detail.png" alt="Product Listing" style="width:30%;">
+</div>
 
 ## Technologies Used
 
